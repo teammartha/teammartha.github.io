@@ -1,0 +1,17 @@
+.gsbackground {
+    background-color: navy;    
+}
+
+.gsheader {
+    background-color: darkgoldenrod; 
+    border: 4px; 
+    border-color: silver;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    color: white;
+}
