@@ -4,9 +4,10 @@ function signatures(){
         let name = element.getAttribute("name");
         switch(name){
             case "pasta":
-                element.setAttribute("title", "Pasta (he/they) 🏳️‍🌈\nLead Developer\npokeheartgold-expanded");
+                element.setAttribute("title", "Pasta (he/they) 🏳️‍🌈\nLead Developer\nhttps://github.com/teammartha\npokeheartgold-expanded");
                 //Pasta (he/they) 🏳️‍🌈
                 //Lead Developer
+                //https://github.com/teammartha
                 //pokeheartgold-expanded
                 break;
             default:
@@ -16,8 +17,12 @@ function signatures(){
     return;
 }
 
+function homePage(){
+    window.location.href = "../pokeheartgold-expanded/";
+}
+
 function repository(){
-    return;
+    window.location.href = "https://github.com/teammartha";
 }
 
 function summary(){
@@ -71,6 +76,13 @@ function buildHeader(){
         buttons.id = "buttons";
             let button_table = document.createElement("table");
                 let button_tr = document.createElement("tr");
+                    let button_td0 = document.createElement("td");
+                        let button0 = document.createElement("button");
+                        button0.classList.add("gsheaderbutton");
+                        button0.setAttribute("onclick", "homePage()");
+                        button0.textContent = "Home";
+                    button_td0.appendChild(button0);
+                button_tr.appendChild(button_td0);
                     let button_td1 = document.createElement("td");
                         let button1 = document.createElement("button");
                         button1.classList.add("gsheaderbutton");
