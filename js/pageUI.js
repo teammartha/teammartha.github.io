@@ -49,7 +49,7 @@ function buildHeader(){
                 let header_tr = document.createElement("tr");
                     let header_td1 = document.createElement("td");
                         let img = document.createElement("img");
-                        img.setAttribute("src", "../img/ho-oh.png");
+                        img.setAttribute("src", "../../img/ho-oh.png");
                     header_td1.appendChild(img);
                 header_tr.appendChild(header_td1);
                     let header_td2 = document.createElement("td");
