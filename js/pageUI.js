@@ -29,8 +29,8 @@ function summary(){
     window.location.href = "../summary/";
 }
 
-function encounterTables(){
-    return;
+function updatedPokemon(){
+    window.location.href = "../updated-pokemon/";
 }
 
 function buildHeader(){
@@ -100,8 +100,8 @@ function buildHeader(){
                     let button_td3 = document.createElement("td");
                         let button3 = document.createElement("button");
                         button3.classList.add("gsheaderbutton");
-                        button3.setAttribute("onclick", "encounterTables()");
-                        button3.textContent = "Encounter Tables";
+                        button3.setAttribute("onclick", "updatedPokemon()");
+                        button3.textContent = "Updated Pokemon";
                     button_td3.appendChild(button3);
                 button_tr.appendChild(button_td3);
             button_table.appendChild(button_tr);
