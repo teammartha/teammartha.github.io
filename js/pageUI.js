@@ -4,7 +4,12 @@ function signatures(){
         let name = element.getAttribute("name");
         switch(name){
             case "pasta":
-                element.setAttribute("title", "Pasta (he/they) 🏳️‍🌈\nLead Developer\nhttps://github.com/teammartha\npokeheartgold-expanded");
+                element.setAttribute("title", 
+                "Pasta (he/they) 🏳️‍🌈\n" +
+                "Lead Developer\n" +
+                "https://github.com/teammartha\n" +
+                "pokeheartgold-expanded\n" +
+                "hgss-learnset-viewer");
                 //Pasta (he/they) 🏳️‍🌈
                 //Lead Developer
                 //https://github.com/teammartha
