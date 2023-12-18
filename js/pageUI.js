@@ -23,7 +23,7 @@ function signatures(){
 }
 
 function homePage(){
-    window.location.href = "../pokeheartgold-expanded/";
+    window.location.href = "../home/";
 }
 
 function repository(){
@@ -61,7 +61,7 @@ function buildHeader(){
                             let htd2_text1 = document.createTextNode("A ");
                         header_p.appendChild(htd2_text1);
                             let htd2_a1 = document.createElement("a");
-                            htd2_a1.setAttribute("href", "../home/");
+                            htd2_a1.setAttribute("href", "../../teammartha/home/");
                             htd2_a1.text = "Team Martha";
                         header_p.appendChild(htd2_a1);
                             let htd2_text2 = document.createTextNode(" project built from the ");
